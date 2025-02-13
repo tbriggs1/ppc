@@ -1,0 +1,32 @@
+.logo-website {
+  display: flex; /* Children will sit next to each other */
+  justify-content:space-between; /* Pushes children to the edges */
+  align-items: center; /* Vertically centers children */
+  gap: 120px; /* Adds space between children */
+}
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+}
+
+.buttonsTitle{
+  display: flex;
+  gap: 15px;
+  padding-right:50px;
+}
+
+.buttonsTitle button {
+  background: none;
+  border: none;
+  font-size: 16px;
+}
+
+.buttonsTitle button:hover {
+  color: grey;
+}
+
+.contactTitle{
+  display:flex;
+  padding-right:50px;
+}
