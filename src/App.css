@@ -13,7 +13,7 @@
 .buttonsTitle{
   display: flex;
   gap: 15px;
-  padding-right:50px;
+  padding-right:150px;
 }
 
 .buttonsTitle button {
@@ -26,7 +26,73 @@
   color: grey;
 }
 
-.contactTitle{
-  display:flex;
-  padding-right:50px;
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center; /* Keeps content vertically centered */
+  padding-left: 50px; /* Adds spacing from the left */
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: left; /* Aligns text to the left */
+  max-width: 600px; /* Optional: limits text width */
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Improves readability */
+  padding-left: 150px;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar {
+  position: fixed; /* Keeps it at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background:transparent; /* Semi-transparent background */
+  z-index: 20; /* Ensures it stays above the video */
+}
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonsTitle {
+  display: flex;
+  gap: 20px;
+}
+
+.contactTitle {
+  display: flex;
+}
+
+.contactUs {
+  color: white;
+  background-color: white;
 }
