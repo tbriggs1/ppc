@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="logo-website navbar">
+        <nav className="navbar">
             <div className="logoTitle">
                 <img src="/logo1.png" alt="Logo" className="h-10 w-10" width={150} />
                 <span className="text-xl font-bold text-gray-800">Pippa's Pawfect Paws</span>
